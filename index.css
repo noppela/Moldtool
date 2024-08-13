@@ -9,6 +9,7 @@ body{
     height: 100vh;
     width: 100vw;
     font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -33,6 +34,10 @@ nav{
     color: inherit;
 }
 
+.home-images{
+    width: 100vw;
+}
+
 .banner-home-text{
     position: absolute;
     top: 550px;
@@ -55,7 +60,8 @@ nav{
 
 .first-divider{
     height: 100px;
-    padding: 80px 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -80,4 +86,156 @@ nav{
 .first-divider-second-text{
     padding-left: 30px;
     font-weight: bold;
+}
+
+.banner-home-text2{
+    position: absolute;
+    top: 1502px;
+    margin-left: 1000px;
+    color: #353538;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.banner-home-text2 span{
+    font-size: 22px;
+}
+
+.banner-home-text-smaller2{
+    margin-top: 4px;
+    font-size: 19px !important;
+    
+}
+
+
+
+.second-divider{
+    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0E76BC;
+    
+}
+
+.second-divider-first-text{
+    width: auto;
+    line-height: 4px;
+    border-right: 1px ;
+    border-right-style: solid;
+    border-color: white;
+    padding-right: 30px;
+    text-align: right;
+    
+    
+}
+
+.second-divider-second-text{
+    padding-left: 30px;
+    line-height: 12px;
+    font-size: 15px;
+}
+
+.second-image{
+    background-color: #0E76BC;
+}
+
+.third-divider{
+    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #05354C;
+    
+}
+
+.third-divider-first-text{
+    width: auto;
+    height: 73px;
+    line-height: 4px;
+    border-right: 1px ;
+    border-right-style: solid;
+    border-color: #05354C;
+    padding-right: 30px;
+    text-align: right;
+    
+    
+}
+
+.third-divider-second-text{
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 12px;
+}
+
+.home4-div{
+    background-color: #343538;
+
+}
+
+footer{
+    background-color: #343538;
+    color: white;
+}
+
+.footer-header{
+    padding: 30px 200px;
+    
+}
+
+.footer-header-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.footer-header-items a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-divider{
+    background-color: #000205;
+    width: 80%;
+    align-self: center;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.logo-branco{
+    width: 365px;
+    height: 107px;
+}
+
+.endereco{
+    font-size: 13px;
+}
+
+.telefone{
+    font-size: 15px;
+}
+
+.email{
+    font-size: 14px;
+}
+
+.copyright{
+    color: #939192;
+    font-size: 13px;
+    padding-bottom: 50px;
+    text-align: center;
 }
