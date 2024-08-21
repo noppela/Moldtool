@@ -8,6 +8,8 @@ body{
     background-color: #F3F3F5;
     height: 100vh;
     width: 100vw;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -32,4 +34,122 @@ nav{
 .nav-items a{
     text-decoration: none;
     color: inherit;
+}
+
+footer{
+    background-color: #343538;
+    color: white;
+}
+
+.footer-header{
+    padding: 30px 200px;
+    
+}
+
+.footer-header-items{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.footer-header-items a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-divider{
+    background-color: #000205;
+    width: 80%;
+    align-self: center;
+}
+
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+}
+
+.logo-branco{
+    width: 365px;
+    height: 107px;
+}
+
+.endereco{
+    font-size: 13px;
+}
+
+.telefone{
+    font-size: 15px;
+}
+
+.email{
+    font-size: 14px;
+}
+
+.copyright{
+    color: #939192;
+    font-size: 13px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.parent{
+    position: relative;
+}
+
+.background-image{
+    margin-bottom: -4px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-image{
+    position: absolute;
+    top: -30px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 565px;
+    align-items: center;
+    color: white;
+    scale: 0.7;
+    
+}
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .text-image{
+        top: 120px;
+        scale: 1;
+    }
+}
+
+.text-image h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD503;
+}
+.text-image h2{
+    font-size: 17px;
+    font-weight: normal;
+    
+}
+.text-image h3{
+    font-size: 17px;
+    font-weight: normal;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.text-image p{
+    font-size: 15px;
+    font-weight: normal;
+    
+}
+
+.descricao{
+    line-height: 30px;
+}
+
+.paragrafo{
+    padding-left: 20px;
 }
