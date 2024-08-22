@@ -125,11 +125,17 @@ footer{
 
 .middle-text{
     font-size: 16px;
-    line-height: 21px;
+    
     padding-left: 19px;
     padding-top: 50px;
     color: #353538 !important;
 }
+.middle-text p{
+    line-height: 21px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 
 .third-text{
     font-size: 17px;
